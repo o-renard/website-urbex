@@ -1,0 +1,310 @@
+body{
+    background: linear-gradient(grey, 30%, black);
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    border-color: black;
+    height: 1px;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    filter:drop-shadow(0 0 6px black);
+    margin-top: 40px;
+}
+
+.diapo_verticales figure img{
+    width: 300px;
+    height: 400px;
+    margin-top: -10px;
+    margin-left: -20px;
+    float: left;
+}
+
+.diapo_verticales{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+    float: right;
+}
+
+.diapo_1{
+    width: calc(300px*2);
+    animation: slider_1 10s infinite;
+}
+
+@keyframes slider_1{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-290px);
+    }
+    75%{
+        transform: translateX(-290px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.diapo_horizontales figure img{
+    width: 400px;
+    height: 300px;
+    margin-left: -20px;
+    float: left;
+}
+
+.diapo_horizontales{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+}
+
+.diapo_2{
+    width: calc(400px*4);
+    animation: slider_2 20s infinite;
+}
+
+@keyframes slider_2{
+    0%{
+        transform: translateX(0);
+    }
+    12%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-390px);
+    }
+    37%{
+        transform: translateX(-390px);
+    }
+    50%{
+        transform: translateX(-770px);
+    }
+    62%{
+        transform: translateX(-770px);
+    }
+    75%{
+        transform: translateX(-1150px);
+    }
+    87%{
+        transform: translateX(-1150px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.diapo_3{
+    width: calc(300px*2);
+    animation: slider_3 10s infinite;
+}
+
+@keyframes slider_3{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-290px);
+    }
+    75%{
+        transform: translateX(-290px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.diapo_4{
+    width: calc(400px*2);
+    animation: slider_4 10s infinite;
+}
+
+@keyframes slider_4{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-390px);
+    }
+    75%{
+        transform: translateX(-390px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.diapo_5{
+    width: calc(400px*10);
+    animation: slider_5 50s infinite;
+}
+
+@keyframes slider_5{
+    0%{
+        transform: translateX(0);
+    }
+    5%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-390px);
+    }
+    15%{
+        transform: translateX(-390px);
+    }
+    20%{
+        transform: translateX(-770px);
+    }
+    25%{
+        transform: translateX(-770px);
+    }
+    30%{
+        transform: translateX(-1150px);
+    }
+    35%{
+        transform: translateX(-1150px);
+    }
+    40%{
+        transform: translateX(-1530px);
+    }
+    45%{
+        transform: translateX(-1530px);
+    }
+    50%{
+        transform: translateX(-1910px);
+    }
+    55%{
+        transform: translateX(-1910px);
+    }
+    60%{
+        transform: translateX(-2290px);
+    }
+    65%{
+        transform: translateX(-2290px);
+    }
+    70%{
+        transform: translateX(-2670px);
+    }
+    75%{
+        transform: translateX(-2670px);
+    }
+    80%{
+        transform: translateX(-3050px);
+    }
+    85%{
+        transform: translateX(-3050px);
+    }
+    90%{
+        transform: translateX(-3430px);
+    }
+    95%{
+        transform: translateX(-3430px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.diapo_6{
+    width: calc(300px*8);
+    animation: slider_6 40s infinite;
+}
+
+@keyframes slider_6{
+    0%{
+        transform: translateX(0);
+    }
+    6%{
+        transform: translateX(0);
+    }
+    12%{
+        transform: translateX(-290px);
+    }
+    18%{
+        transform: translateX(-290px);
+    }
+    25%{
+        transform: translateX(-570px);
+    }
+    31%{
+        transform: translateX(-570px);
+    }
+    37%{
+        transform: translateX(-850px);
+    }
+    43%{
+        transform: translateX(-850px);
+    }
+    50%{
+        transform: translateX(-1130px);
+    }
+    56%{
+        transform: translateX(-1130px);
+    }
+    62%{
+        transform: translateX(-1410px);
+    }
+    68%{
+        transform: translateX(-1410px);
+    }
+    75%{
+        transform: translateX(-1690px);
+    }
+    81%{
+        transform: translateX(-1690px);
+    }
+    87%{
+        transform: translateX(-1970px);
+    }
+    93%{
+        transform: translateX(-1970px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.histoire_manoir{
+    color: lightgray;
+    margin-top: 25px;
+}
+
+.histoire_cheminot{
+    color: lightgray;
+}
+
+.histoire_foret{
+    color: lightgray;
+}

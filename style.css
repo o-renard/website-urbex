@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(grey, 30%, black);
+    background-repeat: no-repeat;
+}
+
+button{
+    background-color: rgb(255, 231, 231);
+    transform: rotate(-25deg);
+    margin-top: 10px;
+    margin-left: -10px;
+    border-color: rgb(209, 0, 0);
+}
+
+button a{
+    color: rgb(209, 0, 0);
+}
+
+h1{
+    text-align: center;
+    filter:drop-shadow(0 0 6px black)
+}
+
+.intro p{
+    color: lightgray;
+}
+
+hr{
+    margin-top: -20px;
+    border-color: black;
+    height: 1px;
+    background: linear-gradient(90deg, black, 60%, lightgray);
+}
+
+.dek{
+    width: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cartes{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 310px 50px 70px;
+    grid-template-areas: "image" "blanc" "texte";
+    border-radius: 18px;
+    background: black;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    margin: 30px;
+}
+
+.image-carte1{
+    grid-area: image;
+    background: url("Manoir/IMG_20201017_160200.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image-carte2{
+    grid-area: image;
+    background: url("Maison cheminot/IMG_20210222_151601.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.image-carte3{
+    grid-area: image;
+    background: url("Maisons foret/IMG_20210711_155206.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.texte-carte{
+    grid-area: texte;
+}
+
+.texte-carte a{
+    color: white;
+    filter: drop-shadow(0 0 8px white);
+}
